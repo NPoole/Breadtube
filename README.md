@@ -1,2 +1,2 @@
 # BREADTOOB
-Miniature Tube Socket Breadboard
+9-Pin Miniature Tube Socket Breadboard
