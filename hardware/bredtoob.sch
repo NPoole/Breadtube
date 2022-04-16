@@ -304,26 +304,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Toob">
 <packages>
 <package name="9-PIN-MINIATURE">
-<pad name="PIN9" x="-3.496146875" y="-4.914175" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN8" x="-5.686359375" y="-1.98074375" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN7" x="-5.734053125" y="1.679828125" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN6" x="-3.621003125" y="4.669325" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN5" x="-0.15433125" y="5.8458625" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN4" x="3.341815625" y="4.7600375" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN3" x="5.532028125" y="1.82660625" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN2" x="5.579721875" y="-1.833965625" drill="1.524" diameter="3.048" rot="R90"/>
-<pad name="PIN1" x="3.466671875" y="-4.8234625" drill="1.524" diameter="3.048" rot="R90"/>
+<pad name="PIN9" x="-3.496146875" y="-4.914175" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN8" x="-5.686359375" y="-1.98074375" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN7" x="-5.734053125" y="1.679828125" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN6" x="-3.621003125" y="4.669325" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN5" x="-0.15433125" y="5.8458625" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN4" x="3.341815625" y="4.7600375" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN3" x="5.532028125" y="1.82660625" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN2" x="5.579721875" y="-1.833965625" drill="1.905" diameter="3.048" rot="R90"/>
+<pad name="PIN1" x="3.466671875" y="-4.8234625" drill="1.905" diameter="3.048" rot="R90"/>
 <circle x="5.08" y="-6.35" radius="0.381" width="0.3048" layer="21"/>
 <hole x="0" y="0" drill="5.08"/>
 </package>
 <package name="7-PIN-MINIATURE(B7G)">
-<pad name="2" x="4.7625" y="0" drill="1.524" diameter="3.048"/>
-<pad name="3" x="3.367596875" y="3.367596875" drill="1.524" diameter="3.048"/>
-<pad name="4" x="0" y="4.7625" drill="1.524" diameter="3.048"/>
-<pad name="5" x="-3.367596875" y="3.367596875" drill="1.524" diameter="3.048"/>
-<pad name="6" x="-4.7625" y="0" drill="1.524" diameter="3.048"/>
-<pad name="7" x="-3.367596875" y="-3.367596875" drill="1.524" diameter="3.048"/>
-<pad name="1" x="3.367596875" y="-3.367596875" drill="1.524" diameter="3.048"/>
+<pad name="2" x="4.7625" y="0" drill="1.905" diameter="3.048"/>
+<pad name="3" x="3.367596875" y="3.367596875" drill="1.905" diameter="3.048"/>
+<pad name="4" x="0" y="4.7625" drill="1.905" diameter="3.048"/>
+<pad name="5" x="-3.367596875" y="3.367596875" drill="1.905" diameter="3.048"/>
+<pad name="6" x="-4.7625" y="0" drill="1.905" diameter="3.048"/>
+<pad name="7" x="-3.367596875" y="-3.367596875" drill="1.905" diameter="3.048"/>
+<pad name="1" x="3.367596875" y="-3.367596875" drill="1.905" diameter="3.048"/>
 <hole x="0" y="0" drill="5.08"/>
 <circle x="5.08" y="-5.08" radius="0.386253125" width="0.3048" layer="21"/>
 </package>
@@ -753,20 +753,6 @@ Holes are offset 0.005" to lock pins in place during soldering.
 <wire x1="1.016" y1="-1.524" x2="-0.889" y2="-1.524" width="0.2032" layer="21"/>
 <wire x1="-0.889" y1="-1.524" x2="1.016" y2="-1.524" width="0.2032" layer="22"/>
 <pad name="9" x="28" y="0" drill="1.2" diameter="2.032"/>
-</package>
-<package name="BANANA_CONN">
-<description>&lt;h3&gt;Banana Plug PTH&lt;/h3&gt;
-0.2" diameter pad, 0.1" hole. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;BANANA_CONN&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
-<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
-<text x="-2.54" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-2.54" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="1X07">
 <description>&lt;h3&gt;Plated Through Hole -7 Pin&lt;/h3&gt;
@@ -2175,6 +2161,33 @@ Holes are offset 0.005" to hold pins in place while soldering.
 <pad name="9" x="28" y="0" drill="1.2" diameter="2.032"/>
 <pad name="10" x="31.5" y="0" drill="1.2" diameter="2.032"/>
 </package>
+<package name="BINDING_POST">
+<description>&lt;h3&gt;Insulated Binding Post&lt;/h3&gt;
+Banana-jack compatible post
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BINDING_POST&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.5" y1="-3.5" x2="0.5" y2="-3.5" width="0.127" layer="20"/>
+<wire x1="0.5" y1="-3.5" x2="4" y2="0" width="0.127" layer="20" curve="90"/>
+<wire x1="4" y1="0" x2="0.5" y2="3.5" width="0.127" layer="20" curve="90"/>
+<wire x1="-0.5" y1="3.5" x2="-4" y2="0" width="0.127" layer="20" curve="90"/>
+<wire x1="-4" y1="0" x2="-0.5" y2="-3.5" width="0.127" layer="20" curve="90"/>
+<pad name="P$1" x="0" y="7.62" drill="1.5"/>
+<circle x="0" y="0" radius="6.300790625" width="0.127" layer="40"/>
+<circle x="0" y="0" radius="5.5" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="5.5" width="0.254" layer="21"/>
+<wire x1="0.5" y1="3.5" x2="-0.5" y2="3.5" width="0.127" layer="20"/>
+<wire x1="0.5" y1="-3.5" x2="4" y2="0" width="0.127" layer="20" curve="90"/>
+<wire x1="4" y1="0" x2="0.5" y2="3.5" width="0.127" layer="20" curve="90"/>
+<wire x1="-0.5" y1="3.5" x2="-4" y2="0" width="0.127" layer="20" curve="90"/>
+<wire x1="0.5" y1="3.5" x2="-0.5" y2="3.5" width="0.127" layer="20"/>
+<wire x1="-4" y1="0" x2="-0.5" y2="-3.5" width="0.127" layer="20" curve="90"/>
+<wire x1="-0.5" y1="-3.5" x2="0.5" y2="-3.5" width="0.127" layer="20"/>
+<text x="-1.27" y="9.017" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-7.112" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<text x="-2.54" y="-1.905" size="1.27" layer="20">ROUTE
+OUT</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_09">
@@ -2203,14 +2216,6 @@ Holes are offset 0.005" to hold pins in place while soldering.
 <pin name="7" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="8" x="10.16" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="9" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="BANANA_CONN">
-<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
-&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;</description>
-<circle x="0" y="0" radius="1.2951" width="0.254" layer="94"/>
-<text x="-1.016" y="1.778" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-3.048" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 <symbol name="CONN_07">
 <description>&lt;h3&gt; 7 Pin Connection&lt;/h3&gt;</description>
@@ -2353,6 +2358,14 @@ Holes are offset 0.005" to hold pins in place while soldering.
 <pin name="9" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="10" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="BINDING_POST">
+<description>&lt;h3&gt; Binding Post&lt;/h3&gt;
+Single connection binding post</description>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
+<circle x="0" y="0" radius="1.27" width="0.6096" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="95" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CONN_09" prefix="J" uservalue="yes">
@@ -2489,30 +2502,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <technology name="">
 <attribute name="PROD_ID" value="Combine 13617+8288" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BANANA_CONN" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
-&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;
-&lt;p&gt;SparkFun Products:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/10956"&gt;Multimeter Kit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/509"&gt;Banana to Alligator Cable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/508"&gt;Banana to Alligator Coax Cable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/507"&gt;Banana to Banana Cable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/506"&gt;Banana to IC Hook Cables&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="BANANA_CONN" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="BANANA_CONN">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3096,6 +3085,34 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </device>
 </devices>
 </deviceset>
+<deviceset name="BINDING_POST" prefix="J">
+<description>&lt;h3&gt;Binding Post&lt;/h3&gt;
+&lt;p&gt;The component itself has an threaded, insulated body that goes through the board, with a small threaded metal stud coming off the back. 
+&lt;p&gt; The intent of this package is that the post goes through a milled obling hole, and a small wire would be used to connect from the PCB pad to the metal contact on the post.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13006”&gt;SparkFun Decade Resistance Box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12867”&gt;SparkFun Benchtop Power Board Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/9739”&gt;Binding Post - Red&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/9740”&gt;Binding Post - Black&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BINDING_POST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BINDING_POST">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09675" constant="no"/>
+<attribute name="SF_ID" value="PRT-09740" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-PowerSymbols">
@@ -3164,12 +3181,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J36" library="SparkFun-Connectors" deviceset="CONN_09" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J37" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
-<part name="J38" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
-<part name="J39" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
-<part name="J40" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
-<part name="J41" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
-<part name="J42" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J26" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="J28" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
@@ -3191,6 +3202,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J48" library="SparkFun-Connectors" deviceset="CONN_40" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="BINDING_POST" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="BINDING_POST" device=""/>
+<part name="J5" library="SparkFun-Connectors" deviceset="BINDING_POST" device=""/>
+<part name="J6" library="SparkFun-Connectors" deviceset="BINDING_POST" device=""/>
+<part name="J7" library="SparkFun-Connectors" deviceset="BINDING_POST" device=""/>
+<part name="J8" library="SparkFun-Connectors" deviceset="BINDING_POST" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3238,30 +3255,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="GND2" gate="1" x="-81.28" y="45.72" smashed="yes">
 <attribute name="VALUE" x="-81.28" y="45.466" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="J37" gate="G$1" x="-312.42" y="287.02" smashed="yes">
-<attribute name="NAME" x="-313.436" y="288.798" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="-313.436" y="283.972" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="J38" gate="G$1" x="-312.42" y="281.94" smashed="yes">
-<attribute name="NAME" x="-313.436" y="283.718" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="-313.436" y="278.892" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="J39" gate="G$1" x="-215.9" y="180.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="-217.678" y="179.324" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-212.852" y="179.324" size="1.778" layer="96" font="vector" rot="R90"/>
-</instance>
-<instance part="J40" gate="G$1" x="45.72" y="182.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.942" y="181.864" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="48.768" y="181.864" size="1.778" layer="96" font="vector" rot="R90"/>
-</instance>
-<instance part="J41" gate="G$1" x="-223.52" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="-225.298" y="62.484" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-220.472" y="62.484" size="1.778" layer="96" font="vector" rot="R90"/>
-</instance>
-<instance part="J42" gate="G$1" x="50.8" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.022" y="62.484" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="53.848" y="62.484" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND3" gate="1" x="-317.5" y="274.32" smashed="yes">
 <attribute name="VALUE" x="-317.5" y="274.066" size="1.778" layer="96" align="top-center"/>
@@ -3327,6 +3320,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J2" gate="J1" x="76.2" y="91.44" smashed="yes">
 <attribute name="VALUE" x="76.2" y="68.834" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="73.66" y="102.108" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J3" gate="G$1" x="-312.42" y="287.02" smashed="yes">
+<attribute name="NAME" x="-314.96" y="289.56" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-314.96" y="284.48" size="1.778" layer="95" font="vector" align="top-left"/>
+</instance>
+<instance part="J4" gate="G$1" x="-312.42" y="281.94" smashed="yes">
+<attribute name="NAME" x="-314.96" y="284.48" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-314.96" y="279.4" size="1.778" layer="95" font="vector" align="top-left"/>
+</instance>
+<instance part="J5" gate="G$1" x="-215.9" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="-218.44" y="177.8" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-213.36" y="177.8" size="1.778" layer="95" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="J6" gate="G$1" x="50.8" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.26" y="177.8" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="53.34" y="177.8" size="1.778" layer="95" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="J7" gate="G$1" x="50.8" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.26" y="60.96" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="53.34" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="J8" gate="G$1" x="-218.44" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="-220.98" y="60.96" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-215.9" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -4541,14 +4558,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="-185.42" y="58.42"/>
 </segment>
 <segment>
-<pinref part="J38" gate="G$1" pin="1"/>
-<wire x1="-314.96" y1="281.94" x2="-317.5" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="-317.5" y1="281.94" x2="-317.5" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="J37" gate="G$1" pin="1"/>
-<wire x1="-317.5" y1="287.02" x2="-314.96" y2="287.02" width="0.1524" layer="91"/>
-<junction x="-317.5" y="281.94"/>
-<wire x1="-317.5" y1="281.94" x2="-317.5" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="-317.5" y1="287.02" x2="-317.5" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="J3" gate="G$1" pin="P$1"/>
+<wire x1="-317.5" y1="281.94" x2="-317.5" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="-317.5" y1="287.02" x2="-314.96" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="P$1"/>
+<wire x1="-314.96" y1="281.94" x2="-317.5" y2="281.94" width="0.1524" layer="91"/>
+<junction x="-317.5" y="281.94"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4664,21 +4681,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-220.98" y1="175.26" x2="-218.44" y2="175.26" width="0.1524" layer="91"/>
 <junction x="-218.44" y="175.26"/>
 <wire x1="-218.44" y1="175.26" x2="-215.9" y2="175.26" width="0.1524" layer="91"/>
-<junction x="-215.9" y="175.26"/>
 <wire x1="-226.06" y1="175.26" x2="-223.52" y2="175.26" width="0.1524" layer="91"/>
 <junction x="-226.06" y="175.26"/>
 <junction x="-220.98" y="175.26"/>
 <pinref part="J43" gate="G$1" pin="4"/>
 <wire x1="-223.52" y1="175.26" x2="-220.98" y2="175.26" width="0.1524" layer="91"/>
 <junction x="-223.52" y="175.26"/>
-<pinref part="J39" gate="G$1" pin="1"/>
-<wire x1="-215.9" y1="177.8" x2="-215.9" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="P$1"/>
+<wire x1="-215.9" y1="175.26" x2="-215.9" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-215.9" y="175.26"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="45.72" y1="175.26" x2="45.72" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="J40" gate="G$1" pin="1"/>
 <pinref part="J45" gate="G$1" pin="3"/>
 <pinref part="J45" gate="G$1" pin="40"/>
 <pinref part="J45" gate="G$1" pin="1"/>
@@ -4798,6 +4813,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="45.72" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 <junction x="45.72" y="175.26"/>
 <junction x="50.8" y="175.26"/>
+<pinref part="J6" gate="G$1" pin="P$1"/>
+<wire x1="50.8" y1="175.26" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4841,10 +4858,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="43.18" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="58.42" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J42" gate="G$1" pin="1"/>
 <pinref part="J46" gate="G$1" pin="1"/>
-<junction x="50.8" y="58.42"/>
 <pinref part="J46" gate="G$1" pin="2"/>
 <junction x="48.26" y="58.42"/>
 <pinref part="J46" gate="G$1" pin="3"/>
@@ -4923,6 +4937,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="-45.72" y="58.42"/>
 <pinref part="J46" gate="G$1" pin="40"/>
 <junction x="-48.26" y="58.42"/>
+<pinref part="J7" gate="G$1" pin="P$1"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
+<junction x="50.8" y="58.42"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4964,8 +4981,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-231.14" y1="58.42" x2="-228.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="58.42" x2="-226.06" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-226.06" y1="58.42" x2="-223.52" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-223.52" y1="58.42" x2="-223.52" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J41" gate="G$1" pin="1"/>
 <wire x1="-223.52" y1="58.42" x2="-220.98" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-223.52" y="58.42"/>
 <pinref part="J48" gate="G$1" pin="1"/>
@@ -5046,6 +5061,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J48" gate="G$1" pin="39"/>
 <junction x="-314.96" y="58.42"/>
 <pinref part="J48" gate="G$1" pin="40"/>
+<pinref part="J8" gate="G$1" pin="P$1"/>
+<wire x1="-218.44" y1="58.42" x2="-218.44" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-218.44" y="58.42"/>
 </segment>
 </net>
 <net name="A" class="0">
